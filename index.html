@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bavya Shree P - Computer Science Student Portfolio">
+  <title>Bavya Shree P | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <a href="#home" class="logo">&lt;/&gt; Bavya Shree</a>
+
+    <button id="menuBtn" class="menu-btn"
+      aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeBtn" class="theme-btn"
+      aria-label="Switch to dark theme">🌙</button>
+  </header>
+
+  <main>
+
+    <!-- Home -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="hello">Hello, I'm 👋</p>
+        <h1>Bavya Shree P</h1>
+        <h2>Computer Science Student</h2>
+
+        <p class="intro">
+          I love learning new technologies and creating
+          beautiful and useful web experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Projects →</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="circle"></div>
+
+        <img
+          class="profile-photo"
+          src="./bhavya/myphoto.png"
+          alt="Bavya Shree P">
+
+        <span class="sparkle sparkle-one">✦</span>
+        <span class="sparkle sparkle-two">♡</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="intro-grid">
+      <article class="panel about" id="about">
+        <h2>👤 About Me</h2>
+
+        <p>
+          I'm Bavya Shree, a B.Sc. Computer Science student at
+          KG College of Arts and Science, Coimbatore. I enjoy
+          coding, exploring new technologies and building creative
+          projects. My goal is to become a frontend developer.
+        </p>
+
+        <div class="about-details">
+          <p><strong>Name:</strong> Bavya Shree P</p>
+          <p><strong>Course:</strong> B.Sc. Computer Science</p>
+          <p><strong>College:</strong> KG College of Arts and Science</p>
+          <p><strong>Location:</strong> Coimbatore, Tamil Nadu</p>
+          <p><strong>Graduation:</strong> 2025–2028</p>
+          <p><strong>Interests:</strong> Coding and Web Development</p>
+        </div>
+
+        <p class="education">🎓 B.Sc. Computer Science | 2025–2028</p>
+      </article>
+
+      <!-- Skills -->
+      <article class="panel skills" id="skills">
+        <h2>⚙️ My Skills</h2>
+
+        <div class="skill-grid">
+          <div class="skill-card">
+            <span class="skill-icon">💻</span>
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icon">⌨️</span>
+            <h3>Programming</h3>
+            <p>Java, C, Python</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icon">🧩</span>
+            <h3>Problem Solving</h3>
+            <p>DSA and Logical Thinking</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-icon">🤝</span>
+            <h3>Other Skills</h3>
+            <p>Teamwork and Learning</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <section class="panel projects-section" id="projects">
+      <div class="section-heading">
+        <div>
+          <h2>🚀 My Projects</h2>
+          <p>Learning by building useful projects.</p>
+        </div>
+
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="java">Java</button>
+          <button class="filter" data-filter="c">C</button>
+        </div>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- Scholarship Project -->
+        <article class="project-card" data-category="java">
+          <img
+            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80"
+            alt="Education and graduation">
+
+          <div class="project-info">
+            <span class="project-tag">JAVA PROJECT</span>
+            <h3>Scholarship Eligibility System</h3>
+
+            <p>
+              A Java application that checks scholarship eligibility
+              based on student marks and family income.
+            </p>
+
+            <p><strong>Tools:</strong> Java, Scanner, Conditions</p>
+
+            <p class="learned">
+              Learned: Conditional statements and input handling.
+            </p>
+
+            <a
+              href="https://github.com/BavyaShreePalanisamy/Scholarship-Eligibility-System"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer">
+              View on GitHub →
+            </a>
+          </div>
+        </article>
+
+        <!-- Food Delivery Project -->
+        <article class="project-card" data-category="c">
+          <img
+            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+            alt="Food for a food delivery project">
+
+          <div class="project-info">
+            <span class="project-tag">C / DATA STRUCTURES</span>
+            <h3>Food Delivery System</h3>
+
+            <p>
+              A student project for organising food orders and
+              delivery using programming logic and data structures.
+            </p>
+
+            <p><strong>Tools:</strong> C, Data Structures</p>
+
+            <p class="learned">
+              Learned: Data organisation and logical thinking.
+            </p>
+
+            <a
+              href="https://github.com/BavyaShreePalanisamy/Food-Delivery-System"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer">
+              View on GitHub →
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="project-note">
+        Click "View on GitHub" to explore the project code
+        and README description.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <div class="contact-info">
+        <h2>💌 Contact Me</h2>
+        <p>Feel free to reach out. I'd be happy to connect!</p>
+
+        <a href="mailto:bavyashree685@gmail.com" class="email-link">
+          ✉ bavyashree685@gmail.com
+        </a>
+
+        <p class="contact-hint">
+          This demo form validates your details but does not
+          send an email.
+        </p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="name">Your Name</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Enter your name"
+          required
+          minlength="2">
+
+        <label for="email">Your Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Enter your email"
+          required>
+
+        <label for="message">Your Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Write your message"
+          required
+          minlength="5"></textarea>
+
+        <button type="submit" class="btn submit-btn">
+          Send Message →
+        </button>
+
+        <p id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div>
+      <a class="footer-logo" href="#home">&lt;/&gt; Bavya Shree P</a>
+      <p>© <span id="year"></span> Bavya Shree. All rights reserved.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <button id="topBtn" class="top-btn" aria-label="Back to top">
+      ↑
+    </button>
+  </footer>
+
+</body>
+</html>
